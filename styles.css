@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #00008B;
+  font-style: -apple-style;
+  margin: 0;
+}
+
+#main {
+  background-color: #ADD8E6;
+  margin: 5px;
+  padding-bottom: 5px; 
+}
+
+#heading h1{
+  text-align: center;
+  margin: 0 20px;
+  color: #00008B;
+  border-bottom: 4px solid #00008B;
+  padding: 10px 0;
+  font-size: 40px;
+}
+
+#img-div{
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#image {
+  margin: 10px auto;
+  width: 50%;
+  max-width: 500px;
+  height: auto;
+  box-shadow: 4px 4px 0 2px #00008B; 
+}
+
+#img-caption {
+  font-size: 18px;
+  color: #010111;
+}
+
+#tribute-info {
+  margin: 30px;
+  border: 4px solid #00008B;
+  border-left: 8px double #00008B;
+  border-radius: 0 3px 3px 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+#tribute-info h2 {
+  font-size: 27px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #00008B;
+  margin: 0;
+  padding: 10px;
+  color: #ADD8E6;
+}
+
+#italic {
+  font-style: italic;
+  margin: auto 20px;
+  text-align: center;
+}
+
+#italic + p {
+  text-align: center;
+  font-weight: bold;
+}
+
+#tribute-link {
+  text-decoration: none;
+  color: #00008B;
+}
+#tribute-link:visited {
+  color: #00008B;
+}
+#tribute-link:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin: 0;
+  background-color: #AAA;
+  color: #222;
+}
+
+footer p {
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+#links {
+  display: flex;
+}
+
+#links img {
+  width: 40px;
+  margin: 10px;
+}
+
+#copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
